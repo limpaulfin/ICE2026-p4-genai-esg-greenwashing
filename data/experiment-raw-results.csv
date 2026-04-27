@@ -1,0 +1,71 @@
+doc_id,company,sector,true_label,condition,detected_label,confidence,time_seconds,reasoning,vagueness,selectivity,misleading,irrelevance,overall_risk
+ESG-001,Delta,Aviation,confirmed,ai_assisted,suspected,0.75,2.98,"The claim is under scrutiny due to a class action lawsuit, indicating potential issues with the validity of their carbon offset pledges.",3,4,3,2,4
+ESG-001,Delta,Aviation,confirmed,manual,clean,0.85,2.39,The claim is specific and aligns with industry standards for sustainability without misleading information.,1,1,1,0,1
+ESG-002,P&G,Consumer Goods,confirmed,ai_assisted,confirmed,0.85,3.7,"The claim about P&G being a top plastic polluter contradicts their environmental claims, indicating a pattern of misleading communication.",3,4,5,2,5
+ESG-002,P&G,Consumer Goods,confirmed,manual,suspected,0.65,2.45,"The claim lacks specific details and metrics to substantiate the environmental benefits, raising concerns about its validity.",4,2,3,1,4
+ESG-003,reynoldsconsumerproducts,Other,confirmed,ai_assisted,confirmed,0.95,2.26,"The claim about recyclability contradicts the findings of the class-action lawsuit, indicating misleading information.",3,4,5,2,5
+ESG-003,reynoldsconsumerproducts,Other,confirmed,manual,clean,0.85,2.23,The claim presents clear and specific sustainability initiatives without vague language or selective facts.,1,1,1,0,1
+ESG-004,Petronas,Other,confirmed,ai_assisted,confirmed,0.95,2.5,"The ASA's criticism indicates that the claim misrepresents Petronas's actual environmental contributions, aligning with patterns of misleading advertising found in similar cases.",3,4,5,2,5
+ESG-004,Petronas,Other,confirmed,manual,clean,0.85,2.77,The claim is straightforward and does not exhibit signs of vagueness or misleading information based on the provided text.,1,1,1,0,1
+ESG-005,ArlaFoods,Other,confirmed,ai_assisted,suspected,0.75,2.59,"The claim lacks specificity and could mislead consumers about the actual sustainability practices of ArlaFoods, similar to the vague claims made by Oatly and Ryanair.",4,3,4,1,4
+ESG-005,ArlaFoods,Other,confirmed,manual,clean,0.85,2.54,The claim appears to be straightforward and does not exhibit significant signs of greenwashing based on the provided text.,1,1,1,0,1
+ESG-006,pepsi,Other,confirmed,ai_assisted,suspected,0.75,2.93,"The claim '100% RECYCLED*' lacks clarity on the context and specifics of what is recycled, similar to cases where vague claims mislead consumers.",4,2,3,1,4
+ESG-006,pepsi,Other,confirmed,manual,clean,0.85,2.39,The claim does not exhibit characteristics of greenwashing based on the provided information.,1,1,1,1,1
+ESG-007,Ethiad,Aviation,suspected,ai_assisted,suspected,0.75,3.46,"The claim about low emissions in aviation is similar to Ryanair's misleading advertising, which was deemed greenwashing due to vague and selective information.",3,4,4,2,4
+ESG-007,Ethiad,Aviation,suspected,manual,clean,0.85,2.5,"The claim is substantiated by the company's recent investments in sustainable aviation fuel and carbon offset programs, aligning with industry standards.",1,1,1,0,1
+ESG-008,Adidas,Consumer Goods,suspected,ai_assisted,suspected,0.75,2.66,"The claim lacks specific metrics or comparisons, which raises concerns about its clarity and substantiation.",4,2,3,1,4
+ESG-008,Adidas,Consumer Goods,suspected,manual,clean,0.85,2.35,The claim presents clear and specific sustainability initiatives without vague language or selective data.,1,1,1,0,1
+ESG-009,jbs,Other,suspected,ai_assisted,suspected,0.75,2.65,"The claim lacks specific metrics or comparisons to substantiate its environmental impact, similar to cases where vague claims led to greenwashing accusations.",4,2,3,1,4
+ESG-009,jbs,Other,suspected,manual,clean,0.85,2.83,The claim presents clear and specific sustainability initiatives without exaggeration or misleading information.,1,1,1,0,1
+ESG-010,uniqlo,Other,suspected,ai_assisted,suspected,0.65,2.11,"The claim lacks specific metrics and context, making it difficult to verify its accuracy.",4,2,3,1,3
+ESG-010,uniqlo,Other,suspected,manual,suspected,0.65,3.47,"The claim lacks specific details and metrics to substantiate its environmental benefits, raising concerns about its transparency.",4,2,3,1,3
+ESG-011,mcdonalds,Other,suspected,ai_assisted,suspected,0.75,2.46,"The claim lacks specific metrics and context, making it difficult to verify its accuracy, similar to other vague claims in the retrieved evidence.",4,2,3,1,4
+ESG-011,mcdonalds,Other,suspected,manual,clean,0.85,2.6,The claim is straightforward and does not contain vague or misleading language.,1,1,1,0,1
+ESG-012,Starbucks,Other,suspected,ai_assisted,suspected,0.75,2.69,"The claim lacks specific metrics and context, making it difficult to verify its accuracy, similar to vague claims made by other companies.",4,2,3,1,4
+ESG-012,Starbucks,Other,suspected,manual,clean,0.85,2.82,The claim presents clear and specific sustainability initiatives without any misleading language or vagueness.,1,1,1,0,1
+ESG-013,Zara,Fashion/Retail,confirmed,ai_assisted,suspected,0.75,2.88,"The claim lacks evidence supporting Zara's assertion of minimizing textile waste, similar to cases where companies made unsubstantiated environmental claims.",3,2,4,1,4
+ESG-013,Zara,Fashion/Retail,confirmed,manual,clean,0.85,2.84,The claim aligns with industry standards and does not exhibit significant signs of greenwashing based on the provided text.,1,1,1,0,1
+ESG-014,drbronner,Other,clean,ai_assisted,suspected,0.65,2.75,"The claim lacks specific metrics or comparisons, making it difficult to assess its validity.",4,2,3,1,3
+ESG-014,drbronner,Other,clean,manual,clean,0.85,2.48,The claim aligns with recognized sustainable practices and does not exhibit signs of greenwashing.,1,1,1,0,1
+ESG-015,Boohoo,Fashion/Retail,suspected,ai_assisted,suspected,0.75,2.49,"The claim lacks specific metrics or comparisons, raising concerns about vagueness and potential misleading implications.",4,2,3,1,3
+ESG-015,Boohoo,Fashion/Retail,suspected,manual,clean,0.85,2.4,The claim is specific and aligns with established sustainability practices without vague language or selective information.,1,1,1,0,1
+ESG-016,hsbc,Other,suspected,ai_assisted,suspected,0.75,2.74,"The claim lacks specific evidence and context, making it difficult to assess its validity against known greenwashing patterns.",4,2,3,1,4
+ESG-016,hsbc,Other,suspected,manual,clean,0.85,2.12,The claim is straightforward and does not exhibit significant signs of greenwashing based on the provided context.,1,1,1,0,1
+ESG-017,hyundai,Other,confirmed,ai_assisted,suspected,0.75,2.52,"The claim suggests a level of environmental benefit that may not be substantiated, similar to vague claims in previous cases.",4,2,3,1,4
+ESG-017,hyundai,Other,confirmed,manual,clean,0.85,2.17,The claim is straightforward and does not exhibit characteristics of greenwashing based on the provided text.,1,1,1,0,1
+ESG-018,KPN,Telecommunications,clean,ai_assisted,suspected,0.75,2.58,"The claim lacks specific metrics and context, which raises concerns about its validity and transparency.",4,3,2,1,3
+ESG-018,KPN,Telecommunications,clean,manual,clean,0.85,2.15,The claim is specific and aligns with recognized sustainability practices in the telecommunications sector.,1,1,1,0,1
+ESG-019,thrivemarket,Other,clean,ai_assisted,suspected,0.65,2.62,"The claim lacks specific metrics or comparisons, leading to potential vagueness and misleading implications.",4,2,3,1,3
+ESG-019,thrivemarket,Other,clean,manual,clean,0.85,2.49,The claim presents clear and specific sustainability practices without vague language or selective reporting.,1,1,1,0,1
+ESG-020,Tesco,Other,suspected,ai_assisted,suspected,0.75,2.18,"The claim lacks specific metrics or comparisons, raising concerns about its clarity and potential misleading nature.",4,2,3,1,4
+ESG-020,Tesco,Other,suspected,manual,clean,0.85,2.64,The claim is straightforward and aligns with recognized sustainability practices without ambiguity or selective information.,1,1,1,0,1
+ESG-021,kleankanteen,Other,clean,ai_assisted,suspected,0.65,2.35,"The claim lacks specific metrics and context, similar to cases where vague emissions claims led to greenwashing accusations.",4,2,3,1,3
+ESG-021,kleankanteen,Other,clean,manual,clean,0.85,2.58,The claim appears to be straightforward and does not exhibit significant signs of greenwashing based on the provided text.,1,1,1,0,1
+ESG-022,allbirds,Other,clean,ai_assisted,suspected,0.75,2.05,"The claim lacks specific metrics or comparisons, making it vague and potentially misleading, similar to the Ryanair cases.",4,2,3,1,4
+ESG-022,allbirds,Other,clean,manual,clean,0.85,2.36,The claim is straightforward and aligns with known sustainable practices without ambiguity.,1,1,1,0,1
+ESG-023,interface,Other,clean,ai_assisted,suspected,0.65,2.29,"The claim lacks specific metrics or comparisons, which raises concerns about its clarity and substantiation.",4,2,3,1,3
+ESG-023,interface,Other,clean,manual,clean,0.85,2.82,"The claim is clear and specific, with no evident contradictions or misleading elements.",1,1,1,0,1
+ESG-024,Windex,Other,suspected,ai_assisted,suspected,0.75,1.99,"The claim lacks specific comparative metrics and context, raising concerns about its transparency and accuracy.",4,3,2,1,3
+ESG-024,Windex,Other,suspected,manual,clean,0.85,3.08,The claim is straightforward and does not exhibit any signs of misleading information or vagueness.,1,1,1,0,1
+ESG-025,Equinor,Energy,suspected,ai_assisted,suspected,0.75,2.48,"The claim lacks specific metrics or comparisons, raising concerns about its clarity and potential misleading nature.",4,2,3,1,4
+ESG-025,Equinor,Energy,suspected,manual,clean,0.85,2.46,The claim aligns with industry standards and does not exhibit significant signs of greenwashing based on the provided context.,1,1,1,0,1
+ESG-026,Etihad,Aviation,confirmed,ai_assisted,suspected,0.85,2.21,"The claim lacks sufficient evidence and is similar to previous cases where broad claims were criticized, indicating potential greenwashing.",4,3,4,1,4
+ESG-026,Etihad,Aviation,confirmed,manual,clean,0.85,2.83,"The claim is specific and aligns with industry standards for sustainability in aviation, showing a commitment to reducing carbon emissions.",1,2,1,0,1
+ESG-027,chopvalue,Other,clean,ai_assisted,suspected,0.65,2.3,"The claim lacks specific metrics or comparisons, making it vague and potentially misleading without clear evidence of its environmental impact.",4,2,3,1,3
+ESG-027,chopvalue,Other,clean,manual,clean,0.85,2.83,The claim aligns with sustainable practices and does not exhibit signs of greenwashing based on the provided information.,1,1,1,0,1
+ESG-028,Shell,Energy,confirmed,ai_assisted,suspected,0.85,2.39,"The claim suggests a green marketing approach despite Shell's significant CO2 emissions, which aligns with patterns of misleading claims in the retrieved evidence.",3,4,4,2,4
+ESG-028,Shell,Energy,confirmed,manual,clean,0.85,3.76,"The claim is substantiated by Shell's ongoing investments in renewable energy and emissions reduction initiatives, aligning with industry standards.",1,1,1,0,1
+ESG-029,Innocent,Consumer Goods,confirmed,ai_assisted,suspected,0.75,2.43,"The claim raises concerns due to Innocent's association with Coca-Cola, a company with a history of environmental controversies, suggesting potential misleading implications.",3,4,3,2,4
+ESG-029,Innocent,Consumer Goods,confirmed,manual,suspected,0.65,2.48,"The claim lacks specific details about sustainability practices, which raises concerns about its clarity and transparency.",4,2,3,1,3
+ESG-030,Lufthansa,Aviation,confirmed,ai_assisted,confirmed,0.95,2.47,"The claim is misleading as it lacks concrete evidence of environmental efforts, similar to the Ryanair cases where claims were deemed greenwashing due to insufficient substantiation.",4,3,5,2,5
+ESG-030,Lufthansa,Aviation,confirmed,manual,clean,0.85,1.99,The claim is specific and aligns with industry standards for sustainability practices in aviation.,1,1,1,0,1
+ESG-031,Asos,Fashion/Retail,suspected,ai_assisted,suspected,0.75,2.51,"The claim lacks specific metrics and context, which raises concerns about its clarity and potential misleading nature.",4,2,3,1,4
+ESG-031,Asos,Fashion/Retail,suspected,manual,clean,0.85,2.6,"The claim is specific and backed by measurable sustainability initiatives, indicating a genuine commitment to ESG principles.",1,1,1,0,1
+ESG-032,Keurig,Consumer Goods,confirmed,ai_assisted,confirmed,0.95,2.03,The claim is misleading as it suggests recyclability that is not supported by the actual acceptance at recycling centers.,3,4,5,1,5
+ESG-032,Keurig,Consumer Goods,confirmed,manual,clean,0.85,2.41,The claim is straightforward and aligns with recognized sustainability practices without ambiguity or selective information.,1,1,1,0,1
+ESG-033,AirFrance,Aviation,suspected,ai_assisted,suspected,0.75,2.06,"The claim suggests low emissions similar to Ryanair's misleading advertisements, but lacks specific evidence to confirm or deny its accuracy.",3,4,4,2,4
+ESG-033,AirFrance,Aviation,suspected,manual,suspected,0.65,3.08,"The claim lacks specific details about the environmental initiatives and may be overly broad, raising concerns about its authenticity.",4,2,3,1,3
+ESG-034,Unilever,Consumer Goods,confirmed,ai_assisted,confirmed,0.95,2.2,"The ASA ruling indicates that the claims made by Unilever were deemed unclear and unsubstantiated, aligning with patterns of greenwashing.",5,4,5,2,5
+ESG-034,Unilever,Consumer Goods,confirmed,manual,suspected,0.5,0.0,API error: [0;31m[ERROR] API call failed: We could not parse the JSON body of your request. (HINT: This likely means you aren't using your HTTP library correctly. The OpenAI API expects a JSON payloa,,,,,
+ESG-035,evian,Other,suspected,ai_assisted,suspected,0.75,2.32,"The claim lacks specific metrics or comparisons, raising concerns about its clarity and substantiation.",4,2,3,1,3
+ESG-035,evian,Other,suspected,manual,clean,0.85,2.5,The claim is clear and substantiated by the company's commitment to sustainability practices without misleading information.,1,1,1,0,1

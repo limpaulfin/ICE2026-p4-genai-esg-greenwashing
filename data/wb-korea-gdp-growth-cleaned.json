@@ -1,0 +1,114 @@
+[
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2023,
+    "value": 1.58301467403629
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2022,
+    "value": 2.72756456708991
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2021,
+    "value": 4.61296795454287
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2020,
+    "value": -0.700242317542106
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2019,
+    "value": 2.31380210595475
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2018,
+    "value": 3.17611568177327
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2017,
+    "value": 3.433191763972
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2016,
+    "value": 3.17152748983935
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2015,
+    "value": 2.92029267301234
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2014,
+    "value": 3.21468019683108
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2013,
+    "value": 3.2913959543442
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2012,
+    "value": 2.54766550568242
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2011,
+    "value": 3.6880320602952
+  },
+  {
+    "indicator": "NY.GDP.MKTP.KD.ZG",
+    "indicator_name": "GDP growth (annual %)",
+    "country": "KOR",
+    "country_name": "Korea, Rep.",
+    "year": 2010,
+    "value": 6.98166138853071
+  }
+]

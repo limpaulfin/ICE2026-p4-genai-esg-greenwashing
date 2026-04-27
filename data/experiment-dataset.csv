@@ -1,0 +1,36 @@
+doc_id,company,sector,country,year,report_type,label,primary_sin,secondary_sin,enforcement,source_type,vagueness_score,selectivity_score,misleading_score,irrelevance_score,overall_score,korea_ghg_mt_co2e,korea_renewable_pct,experiment_condition
+ESG-001,Delta,Aviation,USA,2023,ESG Report,confirmed,sin_hidden_tradeoff,ext_aspirational,"Delta faced a class action lawsuit challenging this claim, revealing that while they pledged billions for carbon offsett",real,2,3,5,0,5,,,both
+ESG-002,P&G,Consumer Goods,USA,2018,ESG Report,confirmed,sin_fibbing,sin_hidden_tradeoff,"What is more, parent company P&G has consistently been named one of the top ten plastic polluters in Break Free From Pla",real,5,2,4,1,5,,,both
+ESG-003,reynoldsconsumerproducts,Other,Unknown,2021,ESG Report,confirmed,sin_vagueness,,A class-action lawsuit revealed that the bags were not recyclable themselves and often contaminated the recycling stream,real,5,4,5,0,5,,,both
+ESG-004,Petronas,Other,Unknown,2023,ESG Report,confirmed,sin_hidden_tradeoff,sin_fibbing,The ASA criticized the ad for creating a misleading impression of Petronas's environmental contributions while their pri,real,2,4,5,1,5,,,both
+ESG-005,ArlaFoods,Other,Unknown,2016,ESG Report,confirmed,sin_fibbing,,The ASA considered that consumers would interpret the claim “Good for the land … helping to support a more sustainable f,real,2,4,4,0,5,,,both
+ESG-006,pepsi,Other,Unknown,2022,ESG Report,confirmed,sin_fibbing,,The ASA considered consumers would understand the claim “100% RECYCLED*” alongside images of the bottle with the label a,real,5,2,5,2,5,,,both
+ESG-007,Ethiad,Aviation,UAE,2023,ESG Report,suspected,sin_vagueness,,,real,3,4,1,2,3,,,both
+ESG-008,Adidas,Consumer Goods,Germany,2021,ESG Report,suspected,sin_fibbing,,,real,2,4,2,2,3,,,both
+ESG-009,jbs,Other,Unknown,2021,ESG Report,suspected,sin_fibbing,ext_aspirational,,real,4,4,1,0,3,,,both
+ESG-010,uniqlo,Other,Unknown,2023,ESG Report,suspected,sin_hidden_tradeoff,,,real,3,2,3,2,3,,,both
+ESG-011,mcdonalds,Other,Unknown,2020,ESG Report,suspected,sin_hidden_tradeoff,,,real,2,4,2,1,3,,,both
+ESG-012,Starbucks,Other,Unknown,2022,ESG Report,suspected,sin_vagueness,,,real,2,2,2,1,3,,,both
+ESG-013,Zara,Fashion/Retail,Spain,2022,ESG Report,confirmed,sin_no_proof,ext_aspirational,"For example, in our latest review of Zara, we found no evidence the brand minimises textile waste when manufacturing its",real,3,2,3,2,5,,,both
+ESG-014,drbronner,Other,Unknown,2022,ESG Report,clean,,,,real,0,0,0,0,0,,,both
+ESG-015,Boohoo,Fashion/Retail,UK,2023,ESG Report,suspected,sin_vagueness,,,real,4,3,1,2,3,,,both
+ESG-016,hsbc,Other,Unknown,2021,ESG Report,suspected,sin_fibbing,sin_hidden_tradeoff,,real,2,2,3,1,3,,,both
+ESG-017,hyundai,Other,Unknown,2021,ESG Report,confirmed,sin_fibbing,,"The ASA considered that the claim “A car so beautifully clean, it purifies the air as it goes” would be understood to me",real,3,4,5,2,5,,,both
+ESG-018,KPN,Telecommunications,Netherlands,2023,ESG Report,clean,,,,real,1,0,0,0,0,,,both
+ESG-019,thrivemarket,Other,Unknown,2022,ESG Report,clean,,,,real,0,1,0,0,0,,,both
+ESG-020,Tesco,Other,Unknown,2021,ESG Report,suspected,sin_hidden_tradeoff,sin_fibbing,,real,3,4,3,1,3,,,both
+ESG-021,kleankanteen,Other,Unknown,2019,ESG Report,clean,,,,real,1,1,0,0,0,,,both
+ESG-022,allbirds,Other,Unknown,2023,ESG Report,clean,,,,real,0,0,0,0,0,,,both
+ESG-023,interface,Other,Unknown,2022,ESG Report,clean,,,,real,0,0,0,0,0,,,both
+ESG-024,Windex,Other,Unknown,2021,ESG Report,suspected,sin_vagueness,,,real,3,2,3,2,3,,,both
+ESG-025,Equinor,Energy,Norway,2022,ESG Report,suspected,sin_vagueness,sin_fibbing,,real,2,4,1,0,3,,,both
+ESG-026,Etihad,Aviation,UAE,2023,ESG Report,confirmed,sin_vagueness,ext_selective,"The ASA criticized Etihad for making broad claims without sufficient evidence, particularly omitting their long-term sus",real,2,2,3,0,5,,,both
+ESG-027,chopvalue,Other,Unknown,2023,ESG Report,clean,,,,real,0,1,0,0,0,,,both
+ESG-028,Shell,Energy,Netherlands,2023,ESG Report,confirmed,sin_vagueness,,"Shell's significant CO2 emissions and reliance on fossil fuels undermined their green marketing, leading to criticism an",real,2,3,4,2,5,,,both
+ESG-029,Innocent,Consumer Goods,UK,2021,ESG Report,confirmed,sin_vagueness,,"Plastics Rebellion pointed out that Innocent was owned by Coca-Cola, which has frequently been accused of creating pollu",real,5,3,5,0,5,,,both
+ESG-030,Lufthansa,Aviation,Germany,2023,ESG Report,confirmed,sin_fibbing,sin_hidden_tradeoff,The ASA found the ads misleading because Lufthansa did not provide concrete evidence of significant environmental effort,real,5,3,4,1,5,,,both
+ESG-031,Asos,Fashion/Retail,UK,2022,ESG Report,suspected,sin_no_proof,,,real,2,2,1,2,3,,,both
+ESG-032,Keurig,Consumer Goods,Canada,2022,ESG Report,confirmed,sin_fibbing,,"The Competition Bureau in Canada found these claims misleading as most recycling centers did not accept the pods, result",real,5,4,4,1,5,,,both
+ESG-033,AirFrance,Aviation,France,2023,ESG Report,suspected,sin_vagueness,,,real,3,4,1,2,3,,,both
+ESG-034,Unilever,Consumer Goods,UK,2022,ESG Report,confirmed,sin_vagueness,sin_fibbing,"The ASA deemed the claims unclear and unsubstantiated, noting that the ads did not explain how Persil was environmentall",real,2,2,4,2,5,,,both
+ESG-035,evian,Other,Unknown,2023,ESG Report,suspected,sin_vagueness,,,real,3,2,1,0,3,,,both

@@ -1,0 +1,90 @@
+{
+  "n": 35,
+  "ai_accuracy": 0.5714,
+  "man_accuracy": 0.2571,
+  "ai_correct": 20,
+  "man_correct": 9,
+  "ai_binary": {
+    "tp": 28,
+    "fp": 7,
+    "fn": 0,
+    "tn": 0,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1": 0.8889
+  },
+  "man_binary": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 23,
+    "tn": 7,
+    "precision": 1.0,
+    "recall": 0.1786,
+    "f1": 0.303
+  },
+  "confusion_ai": {
+    "confirmed": {
+      "confirmed": 6,
+      "suspected": 8,
+      "clean": 0
+    },
+    "suspected": {
+      "confirmed": 0,
+      "suspected": 14,
+      "clean": 0
+    },
+    "clean": {
+      "confirmed": 0,
+      "suspected": 7,
+      "clean": 0
+    }
+  },
+  "confusion_man": {
+    "confirmed": {
+      "confirmed": 0,
+      "suspected": 3,
+      "clean": 11
+    },
+    "suspected": {
+      "confirmed": 0,
+      "suspected": 2,
+      "clean": 12
+    },
+    "clean": {
+      "confirmed": 0,
+      "suspected": 0,
+      "clean": 7
+    }
+  },
+  "mcnemar": {
+    "b": 18,
+    "c": 7,
+    "chi2_cc": 4.0
+  },
+  "cohens_h": {
+    "accuracy": 0.6505,
+    "recall": 2.2689,
+    "f1": 1.2961
+  },
+  "confidence": {
+    "ai": 0.77,
+    "manual": 0.8171
+  },
+  "timing": {
+    "ai_mean": 2.51,
+    "manual_mean": 2.52
+  },
+  "dist_true": {
+    "confirmed": 14,
+    "suspected": 14,
+    "clean": 7
+  },
+  "dist_ai": {
+    "suspected": 29,
+    "confirmed": 6
+  },
+  "dist_man": {
+    "clean": 30,
+    "suspected": 5
+  }
+}
