@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Task 13: Detection Rate Analysis & Statistical Comparison."""
-import csv, json, statistics
+import csv, json, os, statistics
 from collections import defaultdict
 from task13_stats_utils import (majority_vote, to_binary, compute_binary_metrics,
     mcnemar_test, cohens_h, wilson_ci, cohens_d, effect_label, bf_interpretation)
 
-DATA = "/home/fong/Projects/ICE-2026-HUIT/p4-Dung-genai-esg-greenwashing/data/processed"
+# Resolve data directory relative to repo root; allow env override.
+_HERE = os.path.dirname(os.path.abspath(__file__))
+DATA = os.environ.get(
+    "P4_DATADIR",
+    os.path.normpath(os.path.join(_HERE, "..", "..", "data")),
+)
 
 with open(f"{DATA}/experiment-raw-results.csv") as f:
     rows = list(csv.DictReader(f))

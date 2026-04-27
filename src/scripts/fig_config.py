@@ -1,4 +1,5 @@
 """Shared config for publication figures: CUD palette, paths, rcParams."""
+import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -9,9 +10,11 @@ CUD = {
     'pink': '#CC79A7',
 }
 
-BASE = '/home/fong/Projects/ICE-2026-HUIT/p4-Dung-genai-esg-greenwashing'
-FIGDIR = f'{BASE}/python/output'
-DATADIR = f'{BASE}/data/processed'
+# Resolve repository root from this file location; allow env override.
+HERE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.environ.get('P4_BASE', os.path.normpath(os.path.join(HERE, '..', '..')))
+FIGDIR = os.environ.get('P4_FIGDIR', os.path.join(BASE, 'output'))
+DATADIR = os.environ.get('P4_DATADIR', os.path.join(BASE, 'data'))
 
 plt.rcParams.update({
     'font.family': 'serif', 'font.size': 10, 'axes.labelsize': 11,
